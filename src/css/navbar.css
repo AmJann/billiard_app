@@ -1,0 +1,32 @@
+/* body{
+    background-color: rgb(237, 235, 235);
+} */
+.nav-large{
+    background-color: white;
+}
+.nav-option{
+    list-style-type: none;
+    display: inline-flex;
+    flex-direction: row;
+    padding: .5em .5em .5em 2em;
+    float:left;
+    margin: 0 2em 2em 0;
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    width: 8em;
+    text-align: center;
+    box-shadow:2px 2px 6px 4px rgb(224, 223, 223);
+    box-shadow:1px 1px 3px 2px grey 2px 2px 6px 4px rgb(224, 223, 223);
+    background-color: white;
+
+
+
+}
+
+.fifth{
+    float: right;
+}
+
+/* .listing-container{
+
+} */

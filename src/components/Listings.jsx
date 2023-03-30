@@ -2,7 +2,7 @@ import React from "react";
 import { useEffect, useState } from "react";
 import {Link} from 'react-router-dom'
 
-function Listings_Protected() {
+function Listings() {
   const [tournament, setTournament] = useState([]);
 
   function getData() {
@@ -55,4 +55,4 @@ function Listings_Protected() {
   );
 }
 
-export default Listings_Protected;
+export default Listings;

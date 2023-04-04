@@ -4,8 +4,10 @@ import '../css/navbar.css'
 function Navbar() {
   return (
     <div>
+       <div className='nav-container'> 
         <nav id='nav-large'>
             <ul>
+                <li className='nav-option main'><h3>Tournament Sphere</h3></li>
                 <li className='nav-option main'>
                     Home
                 </li>
@@ -23,7 +25,7 @@ function Navbar() {
                 </li>
             </ul>
         </nav>
-
+        </div>
 
     </div>
   )

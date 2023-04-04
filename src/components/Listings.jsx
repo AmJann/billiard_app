@@ -33,15 +33,15 @@ function Listings() {
   let tournamentListing = tournament.map((item, i) => {
     return (
   
-      <div className="listing-container">
-     <Link to={`/listing_detail/${item.uuid}`} key={i} className="listing">  
-        <p>{item.title}</p>
-        <p>{item.venue}</p>
-        <p>{item.city}</p>
-        <p>{item.state}</p>
-        <p>{item.date}</p>
-       </Link>
-      </div>
+    <div className="listing-container">
+        <Link to={`/listing_detail/${item.uuid}`} key={i} className="listing">  
+            <p>{item.title}</p>
+            <p>{item.venue}</p>
+            <p>{item.city}</p>
+            <p>{item.state}</p>
+            <p>{item.date}</p>
+        </Link>
+    </div>
     
     );
   });

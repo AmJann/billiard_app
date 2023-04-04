@@ -1,0 +1,15 @@
+#listingCompContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin:9.5em;
+    border:1px solid black;
+}
+
+#navbarCompContainer{
+    Height:18vh;
+    border:1px solid black;
+    background-color: rgb(228, 231, 230);
+    background-image: url("../images/colorful.jpeg");
+}
